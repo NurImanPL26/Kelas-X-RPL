@@ -5,123 +5,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web sekolah</title>
 </head>
 <style>
-    img {
-        width: 200px;
+    .border {
+        border: 1px solid;
     }
 
-    body {
-        background-color: aqua;
-    }
-
-    .batas {
-        margin-left: 200px;
+    .wadah {
+        width: 700px;
+        margin: auto;
     }
 
     .warna {
-        background-color: yellow;
+        background-image: linear-gradient(to right, red, yellow);
+        color: white;
     }
 
-    div {
-        border: 2px solid red;
-        margin: 100px 0px 0px 50px;
-        /* margin-left: 200px; */
-        padding-top: 20px;
+    img {
+        width: 150px;
     }
 
-    nav {
-        border: 3px solid black;
+    .card {
+        width: 30%;
+        padding: 5%;
+        box-sizing: border-box;
     }
 
-    #background {
-        background-color: red;
+    .horizontal {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
     }
 
-    #kiri {
-        margin-left: 200px;
+    .align {
+        text-align: center;
+    }
+
+    .display {
+        display: inline-block;
+        padding: 3%;
     }
 </style>
 
 <body>
-    <div style="margin-top: 50px;">
-        <img src="gambar/Header.png" alt="logo">
-
-        <nav class="batas warna">
+    <div class="wadah border">
+        <nav>
             <ul>
-                <li>Tentang kami</li>
-                <li><a href="kontak.html">Kontak</a></li>
-                <li>Jurusan</li>
-                <li>alamat</li>
+                <li class="display border">Kontak</li>
+                <li class="display border">Jurusan</li>
+                <li class="display border">Tentang Kami</li>
             </ul>
+            <h2>Navigasi</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus esse iste ratione fuga recusandae!
+                Doloribus!</p>
         </nav>
-        <!-- judul -->
-        <section id="background">
-            <h1>SMK revit</h1>
-            <p>Belajar pemrograman web di smk revit</p>
-
-            <table border="lpx">
-                <thead>
-                    <tr>
-                        <th>jam </th>
-                        <th colspan="2">pelajaran
-                    </tr>
-
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1 </td>
-                        <td rowspan="4">pemrograman web</td>
-                        <td>html</td>
-                    </tr>
-                    <tr>
-                        <td>2 </td>
-
-                        <td>html</td>
-                    </tr>
-                    <tr>
-                        <td>3 </td>
-
-                        <td>html</td>
-                    </tr>
-                    <tr>
-                        <td>4 </td>
-
-                        <td>html</td>
-                    </tr>
-                </tbody>
-            </table>
-    </div>
-    </section>
-    <section>
         <section>
-            <video src="video/video.mp4" width="320" height="320" controls></video>
-        </section>
-        <section>
-            <audio src=""></audio>
-        </section>
-        <section>
-            <canvas width="300" height="200">
+            <article class="warna">
+                <h2>Artikel-1</h2>
+            </article>
 
-            </canvas>
+            <article class="border horizontal">
+                <div class="card border align">
+
+                    <h2>artikel-2 </h2>
+                    <img src="gambar/Header.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae cum veniam odit doloribus illo
+                        sunt voluptatum ducimus, possimus iusto laboriosam numquam repellat dolore eius vel?</p>
+
+                </div>
+                <div class="card border align">
+
+                    <h2>artikel-2 </h2>
+                    <img src="gambar/Header.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae cum veniam odit doloribus illo
+                        sunt voluptatum ducimus, possimus iusto laboriosam numquam repellat dolore eius vel?</p>
+
+                </div>
+                <div class="card border align">
+
+                    <h2>artikel-2 </h2>
+                    <img src="gambar/Header.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae cum veniam odit doloribus illo
+                        sunt voluptatum ducimus, possimus iusto laboriosam numquam repellat dolore eius vel?</p>
+                </div>
+            </article>
+            <article>
+                <h2>artikel-3</h2>
+            </article>
         </section>
+
         <footer>
-
-            <form action="" method="">
-                <label for="">login :</label>
-                <input type="text" value="nama" placeholder="nama anda">
-                <input type="submit">
-
-                <select name="" id="">
-                    <option value="1">RPL</option>
-                    <option value="2">DKV</option>
-                    <option value="3">AK</option>
-                </select>
-            </form>
-        </footer>
-    </section>
+            <h2>Footer</h2>
 </body>
 
 </html>
